@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo $((TRUEKNOWLEDGE + 128))
+echo $((128 + $TRUEKNOWLEDGE)) 
