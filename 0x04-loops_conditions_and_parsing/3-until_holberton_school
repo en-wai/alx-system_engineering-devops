@@ -1,9 +1,10 @@
 #!/usr/bin/env bash
-# Print 10 times Holberton School with until Loop
+# Displays "Holberton School" 10 times using an until loop.
 
-i=1
-until [ $i -gt 10 ]
+count=0
+
+until [ $count -eq 10 ]
 do
   echo "Holberton School"
-  ((i++))
+  (( count++ ))
 done
