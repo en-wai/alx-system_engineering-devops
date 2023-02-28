@@ -1,18 +1,10 @@
 #!/usr/bin/env bash
-# script that displays To infinity and beyond indefinitely.
-# shellcheck disable=SC2009
+# This script displays 'To infinity and beyond' indefinitely
+# Requirement: In between each iteration of the loop, add a sleep 2
 
-function no_ctrlc()
-{
-    echo "I am invincible!!!"
-}
-
-
-trap no_ctrlc SIGTERM
-
-while :
+trap 'echo "I am invincible!!!"' SIGTERM
+while true
 do
     echo "To infinity and beyond"
     sleep 2
 done
-

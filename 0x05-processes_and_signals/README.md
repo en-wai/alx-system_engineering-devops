@@ -1,2 +1,1 @@
-# 0x05. Processes and signals
-> ## Foundations - System engineering & DevOps ― Bash
+# Solutions to tasks on Processes and signals
